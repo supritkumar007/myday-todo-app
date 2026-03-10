@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <meta name="description" content="A premium task management application managing daily tasks dynamically.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    
+    <main class="app-container">
+        <header>
+            <h1>My Day</h1>
+            <p id="date-display">Thursday, January 4</p>
+        </header>
+
+        <section class="input-section">
+            <div class="input-wrapper">
+                <i class="fa-solid fa-plus input-icon"></i>
+                <input type="text" id="task-input" placeholder="Add a new task..." autocomplete="off">
+            </div>
+            <button id="add-btn" class="nav-btn"><i class="fa-solid fa-paper-plane"></i></button>
+        </section>
+
+        <section class="filter-section">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </section>
+
+        <ul id="task-list" class="task-list">
+            <!-- Tasks will be injected here -->
+        </ul>
+        
+        <div class="empty-state" id="empty-state">
+            <i class="fa-solid fa-clipboard-check"></i>
+            <p>All caught up! No tasks found.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
