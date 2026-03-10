@@ -9,14 +9,14 @@ A sophisticated, responsive task management application built with vanilla JavaS
 
 ## Features
 
-- ** Modern UI/UX** - Premium glassmorphism design with gradients and micro-animations
-- ** Dynamic Task Creation** - Add tasks instantly with Enter key or intuitive buttons
-- ** Full CRUD Operations** - Create, Read, Update (inline editing), and Delete tasks
-- ** Visual Feedback** - Real-time completion status with strikethrough styling and animated checkboxes
-- ** Smart Filtering** - Filter tasks by 'All', 'Pending', or 'Completed'
-- ** Persistent Storage** - LocalStorage API ensures data remains preserved after browser refresh/close
-- ** Fully Responsive** - Optimized for desktop, tablet, and mobile devices
-- ** Accessible** - Semantic HTML and keyboard-friendly interactions
+-  **Modern UI/UX** - Premium glassmorphism design with gradients and micro-animations
+- **Dynamic Task Creation** - Add tasks instantly with Enter key or intuitive buttons
+- **Full CRUD Operations** - Create, Read, Update (inline editing), and Delete tasks
+- **Visual Feedback** - Real-time completion status with strikethrough styling and animated checkboxes
+- **Smart Filtering** - Filter tasks by 'All', 'Pending', or 'Completed'
+- **Persistent Storage** - LocalStorage API ensures data remains preserved after browser refresh/close
+- **Fully Responsive** - Optimized for desktop, tablet, and mobile devices
+- **Accessible** - Semantic HTML and keyboard-friendly interactions
 
 ##  Technologies Used
 
